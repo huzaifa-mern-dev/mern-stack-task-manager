@@ -15,6 +15,8 @@ A brief description of your project and its purpose. Explain what problem it sol
 - Authentication and authorization using JWT
 - Responsive design
 
+![CodeScreenshot Preview](./demo.png)
+
 ## Tech Stack
 
 - **Frontend**: React, Redux, TailwindCSS
