@@ -35,5 +35,4 @@ Follow these steps to set up the project locally.
 ### Clone the Repository
 
 ```bash
-git clone 
-cd your-repo-name
+git clone https://github.com/huzaifa-mern-dev/mern-stack-task-manger.git
