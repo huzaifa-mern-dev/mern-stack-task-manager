@@ -21,7 +21,7 @@ A brief description of your project and its purpose. Explain what problem it sol
 - **Backend**: Node.js, Express.js
 - **Database**: MongoDB
 - **Authentication**: JWT, bcrypt.js
-- **Other Libraries**: axios, react-hook-form, Headless UI, sonner for notifications
+- **Other Libraries**: react-hook-form, Headless UI, sonner for notifications
 
 ## Installation
 
