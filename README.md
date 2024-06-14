@@ -10,7 +10,7 @@ A brief description of your project and its purpose. Explain what problem it sol
 - User registration with automatic password generation
 - Copy password to clipboard after registration
 - User login
-- User roles and permissions (admin, developer, etc.)
+- User roles and permissions 
 - CRUD operations for tasks and subtasks
 - Authentication and authorization using JWT
 - Responsive design
