@@ -1,8 +1,5 @@
 # Mern Stack Task Manager
 
-
-## Description
-
 ## Features
 
 - User registration with automatic password generation
