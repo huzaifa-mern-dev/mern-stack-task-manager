@@ -1,8 +1,7 @@
 
 import { apiSlice } from "../apiSlice";
 const AUTH_URL =  "/user";
-// const AUTH_URL =  import.meta.env.VITE_APP_BASE_URL + "/api/user"
-// const AUTH_URL = `${import.meta.env.VITE_APP_BASE_URL}/api`;
+
 export const authApiSlice = apiSlice.injectEndpoints({
     endpoints: (builder) => ({
         login: builder.mutation({
