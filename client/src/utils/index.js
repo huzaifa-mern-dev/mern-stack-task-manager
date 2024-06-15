@@ -25,7 +25,6 @@ export function dateFormatter(dateString) {
 }
 
 export function getInitials(fullName) {
-  //  if (!fullName) return ""; // Return an empty string if fullName is undefined or null
 
   const names = fullName.split(" ");
 
