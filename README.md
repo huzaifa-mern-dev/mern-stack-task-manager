@@ -3,8 +3,6 @@
 
 ## Description
 
-A brief description of your project and its purpose. Explain what problem it solves or what features it offers.
-
 ## Features
 
 - User registration with automatic password generation
