@@ -4,18 +4,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
-
-.root,
-#root,
-#docs-root {
-  --primary-color: "#F7F7F7";
-  --secondary-color: "#EEEEEE";
-  --text-color: "#393E46";
-  --second-text-color: "#929AAB";
-
-}
-
 * {
   margin: 0;
   padding: 0;
