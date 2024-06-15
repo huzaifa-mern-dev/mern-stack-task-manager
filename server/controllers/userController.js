@@ -56,44 +56,6 @@ export const registerUser = async (req, res) => {
   }
 };
 
-// export const registerUser = async (req, res) => {
-//   try {
-//     const { name, email, password, isAdmin, role, title } = req.body;
-
-//     const userExist = await User.findOne({ email });
-
-//     if (userExist) {
-//       return res.status(400).json({
-//         status: false,
-//         message: "User already exists",
-//       });
-//     }
-
-//     const user = await User.create({
-//       name,
-//       email,
-//       password,
-//       isAdmin,
-//       role,
-//       title,
-//     }); 
-
-//     if (user) {
-//       isAdmin ? createJWT(res, user._id) : null;
-
-//       user.password = undefined;
-
-//       res.status(201).json(user);
-//     } else {
-//       return res
-//         .status(400)
-//         .json({ status: false, message: "Invalid user data" });
-//     }
-//   } catch (error) {
-//     console.log(error);
-//     return res.status(400).json({ status: false, message: error.message });
-//   }
-// };
 
 export const loginUser = async (req, res) => {
   try {
@@ -273,33 +235,6 @@ export const changeUserPassword = async (req, res) => {
     return res.status(400).json({ status: false, message: error.message });
   }
 };
-
-
-// export const changeUserPassword = async (req, res) => {
-//   try {
-//     const { userId } = req.user;
-
-//     const user = await User.findById(userId);
-
-//     if (user) {
-//       user.password = req.body.password;
-
-//       await user.save();
-
-//       user.password = undefined;
-
-//       res.status(201).json({
-//         status: true,
-//         message: `Password changed successfully.`,
-//       });
-//     } else {
-//       res.status(404).json({ status: false, message: "User not found" });
-//     }
-//   } catch (error) {
-//     console.log(error);
-//     return res.status(400).json({ status: false, message: error.message });
-//   }
-// };
 
 export const activateUserProfile = async (req, res) => {
   try {
